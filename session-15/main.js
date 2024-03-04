@@ -73,3 +73,14 @@ console.log(name.toLowerCase())
 console.log(name.startsWith("D"))
 console.log(Array.from(nom))
 console.log(phrase.split("-"))
+
+let vDate= new Date();
+console.log(vDate.getFullYear())
+console.log(vDate.getMonth())
+console.log(vDate.getHours())
+console.log(vDate.getMinutes())
+
+
+let vDate2= new Date("2023-10-29");
+console.log(vDate2);
+console.log(vDate2.setMonth("02"))
